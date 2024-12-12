@@ -4,10 +4,11 @@
     width: 720px;
     border: solid 1px #ddd;
     margin: 0 auto;
-   background-image: url("table.png");
-border: solid 10px;
-text-align:center;
-min-height:430px;
+    background-image: url("table.png");
+    background-size: cover;
+    border: solid 10px;
+    text-align:center;
+    min-height:430px;
 }
 
 .btn{
@@ -108,4 +109,6 @@ text-align: center;
     color:white !important;
     border-radius:5px;
     font-weight: bold;
+    border-width: 5px;
+    border-color: gold;
 }
